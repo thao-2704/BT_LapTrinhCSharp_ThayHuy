@@ -12,11 +12,11 @@ namespace BAi_KIEM_TRA
             get { return level; }
             set { level = value; }
         }
-        public Woker()
+        public Woker(string nameWorker, int ageWorker)
         {
 
         }
-        public Woker(string name, int age, string gender, string address) : base(name, age, gender, address)
+        public Woker(string name, int age, string gender, string address, int levelWorker) : base(name, age, gender, address)
         {
             this.Level = level;
         }

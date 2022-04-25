@@ -17,9 +17,8 @@ namespace BAi_KIEM_TRA
         {
             this.officers.Add(officer);
         }
-        public List<Officer> search_OfficerByName(String Name)
+        public void search_OfficerByName(String Name)
         {
-            List<Officer> searchResult = new List<Officer>();
             if (officers != null && officers.Count > 0)
             {
                 foreach (var officer in officers)
@@ -30,7 +29,6 @@ namespace BAi_KIEM_TRA
                     }
                 }
             }
-            return searchResult;
         }
         public void Show_officer()
         {

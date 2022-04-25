@@ -15,7 +15,7 @@ namespace BAi_KIEM_TRA
         public Engineer()
         {
         }
-        public Engineer(string name, int age, string gender, string address) : base(name, age, gender, address)
+        public Engineer(string name, int age, string gender, string address, string branchEnginner) : base(name, age, gender, address)
         {
             this.Branch = branch;
         }
