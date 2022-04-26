@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace BaiDiemDanh_26_4.Bai_2_diemdanh
-{ 
-   public abstract class Animal
-   {
+{
+    public abstract class Animal
+    {
         public abstract void Eat();
         public abstract void makeSound();
     }
