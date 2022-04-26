@@ -11,7 +11,7 @@ namespace BAi_KIEM_TRA
             Manager_officer mg_offic = new Manager_officer();
             while (true)
             {
-                Console.Clear();
+                //Console.Clear();
                 Console.WriteLine("Application Manager Officer!");
                 Console.WriteLine("Choose 1: To insert officer!");
                 Console.WriteLine("Choose 2: To search officer by name!");
@@ -25,7 +25,7 @@ namespace BAi_KIEM_TRA
                      case "1":
                         while (true)
                         {
-                            Console.Clear();
+                            //Console.Clear();
                             Console.WriteLine("Enter 1: to insert Enginner!");
                             Console.WriteLine("Enter 2: to insert Worker!");
                             Console.WriteLine("Enter 3: to insert Staff!");
@@ -92,9 +92,10 @@ namespace BAi_KIEM_TRA
 
                                     mg_offic.addOfficer(new Staff(nameStaff, ageStaff, genderStaff, addressStaff, taskStaff));
                                     break;
+                                case "0":
+                                    return ;
                                 default:
                                     Console.Write("Invalid");
-                                    Console.ReadKey();
                                     break;
                             }
                         }

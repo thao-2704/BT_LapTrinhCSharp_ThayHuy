@@ -35,7 +35,7 @@ namespace BAi_KIEM_TRA
             foreach (var officer in officers)
             {
                 Console.WriteLine(officer);
-                Console.WriteLine("====================================");
+                Console.WriteLine("************************************************");
             }
         }
     }
