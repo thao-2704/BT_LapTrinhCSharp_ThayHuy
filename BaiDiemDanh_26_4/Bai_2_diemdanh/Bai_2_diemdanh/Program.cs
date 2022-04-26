@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BaiDiemDanh_26_4.Bai_2_diemdanh
+namespace Bai_2_diemdanh
 {
     class Program
     {

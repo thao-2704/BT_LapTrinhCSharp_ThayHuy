@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BaiDiemDanh_26_4.Bai_2_diemdanh
+namespace Bai_2_diemdanh
 {
     public abstract class Animal
     {
